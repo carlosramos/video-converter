@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07F1D4EC18F6AE8800F78D9D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F1D4EB18F6AE8800F78D9D /* Cocoa.framework */; };
+		07F1D4F618F6AE8800F78D9D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07F1D4F418F6AE8800F78D9D /* InfoPlist.strings */; };
+		07F1D4F818F6AE8800F78D9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F1D4F718F6AE8800F78D9D /* main.m */; };
+		07F1D4FC18F6AE8800F78D9D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 07F1D4FA18F6AE8800F78D9D /* Credits.rtf */; };
+		07F1D4FF18F6AE8800F78D9D /* CVCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F1D4FE18F6AE8800F78D9D /* CVCAppDelegate.m */; };
+		07F1D50218F6AE8800F78D9D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07F1D50018F6AE8800F78D9D /* MainMenu.xib */; };
+		07F1D50418F6AE8800F78D9D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07F1D50318F6AE8800F78D9D /* Images.xcassets */; };
+		07F1D50B18F6AE8800F78D9D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F1D50A18F6AE8800F78D9D /* XCTest.framework */; };
+		07F1D50C18F6AE8800F78D9D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F1D4EB18F6AE8800F78D9D /* Cocoa.framework */; };
+		07F1D51418F6AE8800F78D9D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07F1D51218F6AE8800F78D9D /* InfoPlist.strings */; };
+		07F1D51618F6AE8800F78D9D /* video_converterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F1D51518F6AE8800F78D9D /* video_converterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07F1D50D18F6AE8800F78D9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07F1D4E018F6AE8800F78D9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07F1D4E718F6AE8800F78D9D;
+			remoteInfo = "video-converter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07F1D4E818F6AE8800F78D9D /* video-converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "video-converter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07F1D4EB18F6AE8800F78D9D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		07F1D4EE18F6AE8800F78D9D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		07F1D4EF18F6AE8800F78D9D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		07F1D4F018F6AE8800F78D9D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		07F1D4F318F6AE8800F78D9D /* video-converter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "video-converter-Info.plist"; sourceTree = "<group>"; };
+		07F1D4F518F6AE8800F78D9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07F1D4F718F6AE8800F78D9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07F1D4F918F6AE8800F78D9D /* video-converter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "video-converter-Prefix.pch"; sourceTree = "<group>"; };
+		07F1D4FB18F6AE8800F78D9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		07F1D4FD18F6AE8800F78D9D /* CVCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVCAppDelegate.h; sourceTree = "<group>"; };
+		07F1D4FE18F6AE8800F78D9D /* CVCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CVCAppDelegate.m; sourceTree = "<group>"; };
+		07F1D50118F6AE8800F78D9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		07F1D50318F6AE8800F78D9D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		07F1D50918F6AE8800F78D9D /* video-converterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "video-converterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07F1D50A18F6AE8800F78D9D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		07F1D51118F6AE8800F78D9D /* video-converterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "video-converterTests-Info.plist"; sourceTree = "<group>"; };
+		07F1D51318F6AE8800F78D9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07F1D51518F6AE8800F78D9D /* video_converterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = video_converterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07F1D4E518F6AE8800F78D9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F1D4EC18F6AE8800F78D9D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07F1D50618F6AE8800F78D9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F1D50C18F6AE8800F78D9D /* Cocoa.framework in Frameworks */,
+				07F1D50B18F6AE8800F78D9D /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07F1D4DF18F6AE8800F78D9D = {
+			isa = PBXGroup;
+			children = (
+				07F1D4F118F6AE8800F78D9D /* video-converter */,
+				07F1D50F18F6AE8800F78D9D /* video-converterTests */,
+				07F1D4EA18F6AE8800F78D9D /* Frameworks */,
+				07F1D4E918F6AE8800F78D9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07F1D4E918F6AE8800F78D9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07F1D4E818F6AE8800F78D9D /* video-converter.app */,
+				07F1D50918F6AE8800F78D9D /* video-converterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07F1D4EA18F6AE8800F78D9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07F1D4EB18F6AE8800F78D9D /* Cocoa.framework */,
+				07F1D50A18F6AE8800F78D9D /* XCTest.framework */,
+				07F1D4ED18F6AE8800F78D9D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		07F1D4ED18F6AE8800F78D9D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07F1D4EE18F6AE8800F78D9D /* AppKit.framework */,
+				07F1D4EF18F6AE8800F78D9D /* CoreData.framework */,
+				07F1D4F018F6AE8800F78D9D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		07F1D4F118F6AE8800F78D9D /* video-converter */ = {
+			isa = PBXGroup;
+			children = (
+				07F1D4FD18F6AE8800F78D9D /* CVCAppDelegate.h */,
+				07F1D4FE18F6AE8800F78D9D /* CVCAppDelegate.m */,
+				07F1D50018F6AE8800F78D9D /* MainMenu.xib */,
+				07F1D50318F6AE8800F78D9D /* Images.xcassets */,
+				07F1D4F218F6AE8800F78D9D /* Supporting Files */,
+			);
+			path = "video-converter";
+			sourceTree = "<group>";
+		};
+		07F1D4F218F6AE8800F78D9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07F1D4F318F6AE8800F78D9D /* video-converter-Info.plist */,
+				07F1D4F418F6AE8800F78D9D /* InfoPlist.strings */,
+				07F1D4F718F6AE8800F78D9D /* main.m */,
+				07F1D4F918F6AE8800F78D9D /* video-converter-Prefix.pch */,
+				07F1D4FA18F6AE8800F78D9D /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07F1D50F18F6AE8800F78D9D /* video-converterTests */ = {
+			isa = PBXGroup;
+			children = (
+				07F1D51518F6AE8800F78D9D /* video_converterTests.m */,
+				07F1D51018F6AE8800F78D9D /* Supporting Files */,
+			);
+			path = "video-converterTests";
+			sourceTree = "<group>";
+		};
+		07F1D51018F6AE8800F78D9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07F1D51118F6AE8800F78D9D /* video-converterTests-Info.plist */,
+				07F1D51218F6AE8800F78D9D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07F1D4E718F6AE8800F78D9D /* video-converter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07F1D51918F6AE8800F78D9D /* Build configuration list for PBXNativeTarget "video-converter" */;
+			buildPhases = (
+				07F1D4E418F6AE8800F78D9D /* Sources */,
+				07F1D4E518F6AE8800F78D9D /* Frameworks */,
+				07F1D4E618F6AE8800F78D9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "video-converter";
+			productName = "video-converter";
+			productReference = 07F1D4E818F6AE8800F78D9D /* video-converter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07F1D50818F6AE8800F78D9D /* video-converterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07F1D51C18F6AE8800F78D9D /* Build configuration list for PBXNativeTarget "video-converterTests" */;
+			buildPhases = (
+				07F1D50518F6AE8800F78D9D /* Sources */,
+				07F1D50618F6AE8800F78D9D /* Frameworks */,
+				07F1D50718F6AE8800F78D9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07F1D50E18F6AE8800F78D9D /* PBXTargetDependency */,
+			);
+			name = "video-converterTests";
+			productName = "video-converterTests";
+			productReference = 07F1D50918F6AE8800F78D9D /* video-converterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07F1D4E018F6AE8800F78D9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CVC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Carlos Ramos";
+				TargetAttributes = {
+					07F1D50818F6AE8800F78D9D = {
+						TestTargetID = 07F1D4E718F6AE8800F78D9D;
+					};
+				};
+			};
+			buildConfigurationList = 07F1D4E318F6AE8800F78D9D /* Build configuration list for PBXProject "video-converter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07F1D4DF18F6AE8800F78D9D;
+			productRefGroup = 07F1D4E918F6AE8800F78D9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07F1D4E718F6AE8800F78D9D /* video-converter */,
+				07F1D50818F6AE8800F78D9D /* video-converterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07F1D4E618F6AE8800F78D9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F1D4F618F6AE8800F78D9D /* InfoPlist.strings in Resources */,
+				07F1D50418F6AE8800F78D9D /* Images.xcassets in Resources */,
+				07F1D4FC18F6AE8800F78D9D /* Credits.rtf in Resources */,
+				07F1D50218F6AE8800F78D9D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07F1D50718F6AE8800F78D9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F1D51418F6AE8800F78D9D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07F1D4E418F6AE8800F78D9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F1D4F818F6AE8800F78D9D /* main.m in Sources */,
+				07F1D4FF18F6AE8800F78D9D /* CVCAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07F1D50518F6AE8800F78D9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F1D51618F6AE8800F78D9D /* video_converterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07F1D50E18F6AE8800F78D9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07F1D4E718F6AE8800F78D9D /* video-converter */;
+			targetProxy = 07F1D50D18F6AE8800F78D9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07F1D4F418F6AE8800F78D9D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07F1D4F518F6AE8800F78D9D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		07F1D4FA18F6AE8800F78D9D /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07F1D4FB18F6AE8800F78D9D /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		07F1D50018F6AE8800F78D9D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07F1D50118F6AE8800F78D9D /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		07F1D51218F6AE8800F78D9D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07F1D51318F6AE8800F78D9D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07F1D51718F6AE8800F78D9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		07F1D51818F6AE8800F78D9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		07F1D51A18F6AE8800F78D9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "video-converter/video-converter-Prefix.pch";
+				INFOPLIST_FILE = "video-converter/video-converter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		07F1D51B18F6AE8800F78D9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "video-converter/video-converter-Prefix.pch";
+				INFOPLIST_FILE = "video-converter/video-converter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		07F1D51D18F6AE8800F78D9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/video-converter.app/Contents/MacOS/video-converter";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "video-converter/video-converter-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "video-converterTests/video-converterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		07F1D51E18F6AE8800F78D9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/video-converter.app/Contents/MacOS/video-converter";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "video-converter/video-converter-Prefix.pch";
+				INFOPLIST_FILE = "video-converterTests/video-converterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07F1D4E318F6AE8800F78D9D /* Build configuration list for PBXProject "video-converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07F1D51718F6AE8800F78D9D /* Debug */,
+				07F1D51818F6AE8800F78D9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07F1D51918F6AE8800F78D9D /* Build configuration list for PBXNativeTarget "video-converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07F1D51A18F6AE8800F78D9D /* Debug */,
+				07F1D51B18F6AE8800F78D9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07F1D51C18F6AE8800F78D9D /* Build configuration list for PBXNativeTarget "video-converterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07F1D51D18F6AE8800F78D9D /* Debug */,
+				07F1D51E18F6AE8800F78D9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07F1D4E018F6AE8800F78D9D /* Project object */;
+}
